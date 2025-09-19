@@ -5,6 +5,7 @@ package br.com.erudio.data.dto;
 //import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import br.com.erudio.serializer.GenderSerializer;
+import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -14,6 +15,7 @@ import java.util.Date;
 import java.util.Objects;
 
 //@JsonPropertyOrder({"id", "address", "first_name", "last_name", "gender"})
+@JsonFilter("PersonFilter")
 public class PersonDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
