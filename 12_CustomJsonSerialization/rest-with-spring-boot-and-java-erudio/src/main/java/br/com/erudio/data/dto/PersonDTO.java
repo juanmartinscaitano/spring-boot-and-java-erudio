@@ -4,7 +4,9 @@ package br.com.erudio.data.dto;
 //import com.fasterxml.jackson.annotation.JsonProperty;
 //import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import br.com.erudio.serializer.GenderSerializer;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -28,6 +30,7 @@ public class PersonDTO implements Serializable {
     private String address;
 
 //    @JsonIgnore
+    @JsonSerialize(using = GenderSerializer.class)
     private String gender;
 
     public PersonDTO() {}
