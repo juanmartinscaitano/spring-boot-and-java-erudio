@@ -6,6 +6,7 @@ package br.com.erudio.data.dto;
 
 import br.com.erudio.serializer.GenderSerializer;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import java.io.Serializable;
@@ -23,8 +24,10 @@ public class PersonDTO implements Serializable {
     private String firstName;
 
 //    @JsonProperty("last_name")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String lastName;
 
+    @JsonInclude(JsonInclude.Include.NON_EMPTY)
     private String phoneNumber;
 
     @JsonFormat(pattern = "dd/MM/yyyy")
