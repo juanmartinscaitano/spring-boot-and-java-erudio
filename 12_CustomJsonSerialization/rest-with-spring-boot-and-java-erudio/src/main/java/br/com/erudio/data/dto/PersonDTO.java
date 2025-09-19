@@ -4,6 +4,8 @@ package br.com.erudio.data.dto;
 //import com.fasterxml.jackson.annotation.JsonProperty;
 //import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
@@ -20,6 +22,8 @@ public class PersonDTO implements Serializable {
 
 //    @JsonProperty("last_name")
     private String lastName;
+
+    @JsonFormat(pattern = "dd/MM/yyyy")
     private Date birthDay;
     private String address;
 
