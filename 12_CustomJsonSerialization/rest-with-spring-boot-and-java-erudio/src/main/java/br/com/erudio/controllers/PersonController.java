@@ -33,6 +33,7 @@ public class PersonController {
 //        person.setPhoneNumber("+55 (00) 1 2345-6789");
         person.setPhoneNumber("");
         person.setLastName(null);
+        person.setSensitiveData("Foo Bar");
         return person;
     }
 
