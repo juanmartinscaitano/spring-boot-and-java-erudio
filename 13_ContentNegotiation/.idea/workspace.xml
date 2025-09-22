@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1e49e7-deea-4e7b-b803-4301ae4cde84" name="Changes" comment="" />
+    <list default="true" id="7f1e49e7-deea-4e7b-b803-4301ae4cde84" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/Startup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/controllers/PersonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/controllers/TestLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/data/dto/PersonDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/exception/hadler/CustomEntityResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/mapper/ObjectMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/repository/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -44,11 +59,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Startup.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RunManager">

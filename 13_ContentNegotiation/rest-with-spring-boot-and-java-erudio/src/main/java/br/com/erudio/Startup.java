@@ -11,11 +11,3 @@ public class Startup {
 	}
 
 }
-
-//nothing new around here!
-
-
-
-
-
-//
