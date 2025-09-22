@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/11_Flyway/rest-with-spring-boot-and-java-erudio/pom.xml" />
         <option value="$PROJECT_DIR$/12_CustomJsonSerialization/rest-with-spring-boot-and-java-erudio/pom.xml" />
+        <option value="$PROJECT_DIR$/13_ContentNegotiation/rest-with-spring-boot-and-java-erudio/pom.xml" />
       </list>
     </option>
   </component>
