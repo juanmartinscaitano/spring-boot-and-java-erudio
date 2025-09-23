@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="7f1e49e7-deea-4e7b-b803-4301ae4cde84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/services/PersonServices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +61,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
   <component name="RunManager">
