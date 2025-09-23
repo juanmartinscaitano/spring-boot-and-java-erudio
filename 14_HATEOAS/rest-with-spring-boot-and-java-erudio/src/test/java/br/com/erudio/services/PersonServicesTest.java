@@ -1,7 +1,12 @@
 package br.com.erudio.services;
 
+import br.com.erudio.data.dto.PersonDTO;
+import br.com.erudio.model.Person;
 import br.com.erudio.repository.PersonRepository;
 import br.com.erudio.unitetests.mapper.mocks.MockPerson;
+
+import static org.mockito.Mockito.when;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
@@ -10,6 +15,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
+
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -40,6 +47,23 @@ class PersonServicesTest {
 
     @Test
     void findById() {
+        Person person = input.mockEntity(1);
+        person.setId(1L);
+        when(repository.findById(1L)).thenReturn(Optional.of(person));
+
+        var result = services.findById(1L);
+
+        assertNotNull(result);
+        assertNotNull(result.getId());
+        assertNotNull(result.getLinks());
+
+        assertNotNull(result.getLinks().stream()
+                .anyMatch(link -> link.getRel().value().equals("self") &&
+                        link.getHref().endsWith("/api/person/v1/1") &&
+                        link.getType().equals("GET")
+                )
+        );
+
     }
 
     @Test

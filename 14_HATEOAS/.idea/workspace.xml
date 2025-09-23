@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f1e49e7-deea-4e7b-b803-4301ae4cde84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/test/java/br/com/erudio/services/PersonServicesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/services/PersonServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/services/PersonServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/test/java/br/com/erudio/services/PersonServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/test/java/br/com/erudio/services/PersonServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/test-classes/br/com/erudio/services/PersonServicesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/test-classes/br/com/erudio/services/PersonServicesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <recent name="br.com.erudio.services" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonServicesTest">
     <configuration name="Startup" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="br.com.erudio.Startup" />
       <module name="rest-with-spring-boot-and-java-erudio" />
@@ -85,6 +84,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-java-erudio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.services.PersonServicesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Startup" />
+      <item itemvalue="JUnit.PersonServicesTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonServicesTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
