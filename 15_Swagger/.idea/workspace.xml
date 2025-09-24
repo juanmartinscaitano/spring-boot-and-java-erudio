@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f1e49e7-deea-4e7b-b803-4301ae4cde84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/13_ContentNegotiation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/15_Swagger.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/config/OpenApiConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <recent name="br.com.erudio.exception.hadler" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonServicesTest">
+  <component name="RunManager" selected="Application.Startup">
     <configuration name="Startup" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="br.com.erudio.Startup" />
       <module name="rest-with-spring-boot-and-java-erudio" />
