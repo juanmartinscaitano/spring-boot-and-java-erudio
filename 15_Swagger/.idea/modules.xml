@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/13_ContentNegotiation.iml" filepath="$PROJECT_DIR$/.idea/13_ContentNegotiation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/15_Swagger.iml" filepath="$PROJECT_DIR$/.idea/15_Swagger.iml" />
     </modules>
   </component>
 </project>
