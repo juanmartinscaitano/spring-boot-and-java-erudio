@@ -2,6 +2,7 @@ package br.com.erudio.controllers;
 
 import br.com.erudio.data.dto.PersonDTO;
 import br.com.erudio.services.PersonServices;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/person/v1")
+@Tag(name = "People", description = "End Points for Managing People")
 public class PersonController {
 
     @Autowired
