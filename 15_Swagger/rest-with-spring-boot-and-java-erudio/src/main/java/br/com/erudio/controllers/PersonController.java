@@ -58,6 +58,24 @@ public class PersonController {
             MediaType.APPLICATION_XML_VALUE,
             MediaType.APPLICATION_YAML_VALUE
     })
+
+    @Operation(summary = "Find a Person",
+            description = "Finds specific person by your id",
+            tags = {"People"},
+            responses = {
+                    @ApiResponse(
+                            description = "Success",
+                            responseCode = "200",
+                            content =  @Content(schema = @Schema(implementation = PersonDTO.class))
+                    ),
+                    @ApiResponse(description = "No Content", responseCode = "204", content = @Content),
+                    @ApiResponse(description = "Bad Request", responseCode = "400", content = @Content),
+                    @ApiResponse(description = "Unauthorized", responseCode = "401", content = @Content),
+                    @ApiResponse(description = "Not Found", responseCode = "404", content = @Content),
+                    @ApiResponse(description = "Internal Server Error", responseCode = "500", content = @Content)
+            }
+    )
+
     public PersonDTO findById(@PathVariable("id") Long id) {
         return service.findById(id);
     }
@@ -72,7 +90,25 @@ public class PersonController {
                 MediaType.APPLICATION_XML_VALUE,
                 MediaType.APPLICATION_YAML_VALUE
         }
+
+
     )
+
+    @Operation(summary = "Adds a Person",
+            description = "Adds a new person by passing a Json, Xml or Yaml representation of the person.",
+            tags = {"People"},
+            responses = {
+                    @ApiResponse(
+                            description = "Create",
+                            responseCode = "201",
+                            content =  @Content(schema = @Schema(implementation = PersonDTO.class))
+                    ),
+                    @ApiResponse(description = "Bad Request", responseCode = "400", content = @Content),
+                    @ApiResponse(description = "Unauthorized", responseCode = "401", content = @Content),
+                    @ApiResponse(description = "Internal Server Error", responseCode = "500", content = @Content)
+            }
+    )
+
     public PersonDTO create(@RequestBody PersonDTO person) {
         return service.create(person);
     }
@@ -89,10 +125,45 @@ public class PersonController {
                 MediaType.APPLICATION_YAML_VALUE
         }
     )
+
+    @Operation(summary = "Updates a person's information",
+            description = "Finds specific person by your id",
+            tags = {"People"},
+            responses = {
+                @ApiResponse(
+                    description = "Success",
+                    responseCode = "200",
+                    content =  @Content(schema = @Schema(implementation = PersonDTO.class))
+                ),
+                @ApiResponse(description = "No Content", responseCode = "204", content = @Content),
+                @ApiResponse(description = "Bad Request", responseCode = "400", content = @Content),
+                @ApiResponse(description = "Unauthorized", responseCode = "401", content = @Content),
+                @ApiResponse(description = "Not Found", responseCode = "404", content = @Content),
+                @ApiResponse(description = "Internal Server Error", responseCode = "500", content = @Content)
+            }
+    )
+
     public PersonDTO update(@RequestBody PersonDTO person) {
         return service.update(person);
     }
 
+
+    @Operation(summary = "Deletes a Person",
+            description = "Delete a specific person by their id",
+            tags = {"People"},
+            responses = {
+                @ApiResponse(
+                        description = "No Content",
+                        responseCode = "204",
+                        content =  @Content(schema = @Schema(implementation = PersonDTO.class))
+                ),
+                @ApiResponse(description = "No Content", responseCode = "204", content = @Content),
+                @ApiResponse(description = "Bad Request", responseCode = "400", content = @Content),
+                @ApiResponse(description = "Unauthorized", responseCode = "401", content = @Content),
+                @ApiResponse(description = "Not Found", responseCode = "404", content = @Content),
+                @ApiResponse(description = "Internal Server Error", responseCode = "500", content = @Content)
+            }
+    )
 
     @DeleteMapping(value = "/{id}")
     public ResponseEntity<?> delete(@PathVariable("id") Long id) {
